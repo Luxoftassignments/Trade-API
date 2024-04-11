@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 @Table(name = "trade_product")
 
-public class Tradeproduct {
+public class git Tradeproduct {
 
 
     @Id
