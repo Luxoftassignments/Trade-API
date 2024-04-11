@@ -1,14 +1,18 @@
 package com.verygoodbank.tes.entity;
 
-import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+
+import jakarta.persistence.*;
 
 @Entity
 @Data
 @Table(name = "trade_product")
 
-public class git Tradeproduct {
 
+public class Tradeproduct {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
